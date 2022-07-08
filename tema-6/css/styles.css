@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button::before {
+    content: "Pasame por encima";
+    color: black;
+}
+button:hover::before {
+    color: white;
+    background: green;
+}
+button:active::before {
+    content: "!Hecho!";
+    color: black;
+}
