@@ -8,10 +8,7 @@ button::before {
     color: black;
 }
 button:hover::before {
+    content: "!Hecho!";
     color: white;
     background: green;
-}
-button:active::before {
-    content: "!Hecho!";
-    color: black;
 }
