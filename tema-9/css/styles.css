@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.btn-modern {
+    transition: all 0.4s ease;
+    padding: 13px 45px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-modern:hover {
+    background-color: rgb(31, 143, 106);
+    box-shadow: 0 0 10px rebeccapurple;
+    color: whitesmoke;
+    transform: translateY(-5px);
+}
